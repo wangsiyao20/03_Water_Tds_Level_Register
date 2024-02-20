@@ -1,0 +1,11 @@
+.\objects\inf_lcd.o: inf\lcd\Inf_LCD.c
+.\objects\inf_lcd.o: inf\lcd\Inf_LCD.h
+.\objects\inf_lcd.o: .\driver\fsmc\Driver_FSMC.h
+.\objects\inf_lcd.o: .\Start\stm32f10x.h
+.\objects\inf_lcd.o: .\Start\core_cm3.h
+.\objects\inf_lcd.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdint.h
+.\objects\inf_lcd.o: .\Start\system_stm32f10x.h
+.\objects\inf_lcd.o: .\common\delay\Common_delay.h
+.\objects\inf_lcd.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\math.h
+.\objects\inf_lcd.o: inf\lcd\Inf_LCD_Font.h
+.\objects\inf_lcd.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdio.h

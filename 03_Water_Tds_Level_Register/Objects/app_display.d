@@ -1,0 +1,11 @@
+.\objects\app_display.o: app\display\App_Display.c
+.\objects\app_display.o: app\display\App_Display.h
+.\objects\app_display.o: .\inf\lcd\Inf_LCD.h
+.\objects\app_display.o: .\driver\fsmc\Driver_FSMC.h
+.\objects\app_display.o: .\Start\stm32f10x.h
+.\objects\app_display.o: .\Start\core_cm3.h
+.\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdint.h
+.\objects\app_display.o: .\Start\system_stm32f10x.h
+.\objects\app_display.o: .\common\delay\Common_delay.h
+.\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\math.h
+.\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdio.h

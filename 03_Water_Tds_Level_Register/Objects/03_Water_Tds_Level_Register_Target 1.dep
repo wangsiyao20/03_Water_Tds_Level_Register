@@ -1,130 +1,140 @@
 Dependencies for Project '03_Water_Tds_Level_Register', Target 'Target 1': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\02_arm5_compiler
-F (.\main.c)(0x65D3041C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+F (.\main.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\debug\Common_Debug.h)(0x65BC8A5E)
-I (.\driver\usart\Driver_USART1.h)(0x65BC58DB)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\debug\Common_Debug.h)(0x65D3F24A)
+I (.\driver\usart\Driver_USART1.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\string.h)(0x6025237E)
-I (.\app\display\App_Display.h)(0x65D2F6BC)
-I (.\inf\lcd\Inf_LCD.h)(0x65D1B692)
-I (.\driver\fsmc\Driver_FSMC.h)(0x65B4C454)
-I (.\common\delay\Common_delay.h)(0x659CB920)
+I (.\app\display\App_Display.h)(0x65D3F24A)
+I (.\inf\lcd\Inf_LCD.h)(0x65D3F24A)
+I (.\driver\fsmc\Driver_FSMC.h)(0x65D3F24A)
+I (.\common\delay\Common_delay.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\math.h)(0x60252378)
-I (.\inf\hx710\Inf_HX710.h)(0x65D2B663)
-I (.\driver\gpio\Driver_GPIO.h)(0x65D2F49A)
-I (.\app\water_level\App_WaterLevel.h)(0x65D2F61D)
-F (.\app\display\App_Display.c)(0x65D2F94C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\app_display.o --omf_browse .\objects\app_display.crf --depend .\objects\app_display.d)
-I (app\display\App_Display.h)(0x65D2F6BC)
-I (.\inf\lcd\Inf_LCD.h)(0x65D1B692)
-I (.\driver\fsmc\Driver_FSMC.h)(0x65B4C454)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\inf\hx710\Inf_HX710.h)(0x65D3F24A)
+I (.\driver\gpio\Driver_GPIO.h)(0x65D3F24A)
+I (.\app\water_level\App_WaterLevel.h)(0x65D3F24A)
+F (.\app\display\App_Display.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\app_display.o --omf_browse .\objects\app_display.crf --depend .\objects\app_display.d)
+I (app\display\App_Display.h)(0x65D3F24A)
+I (.\inf\lcd\Inf_LCD.h)(0x65D3F24A)
+I (.\driver\fsmc\Driver_FSMC.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_delay.h)(0x659CB920)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_delay.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\math.h)(0x60252378)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
-F (.\app\water_level\App_WaterLevel.c)(0x65D30BC7)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\app_waterlevel.o --omf_browse .\objects\app_waterlevel.crf --depend .\objects\app_waterlevel.d)
-I (app\water_level\App_WaterLevel.h)(0x65D2F61D)
-I (.\inf\hx710\Inf_HX710.h)(0x65D2B663)
-I (.\driver\gpio\Driver_GPIO.h)(0x65D2F49A)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+F (.\app\water_level\App_WaterLevel.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\app_waterlevel.o --omf_browse .\objects\app_waterlevel.crf --depend .\objects\app_waterlevel.d)
+I (app\water_level\App_WaterLevel.h)(0x65D3F24A)
+I (.\inf\hx710\Inf_HX710.h)(0x65D3F24A)
+I (.\driver\gpio\Driver_GPIO.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_Delay.h)(0x659CB920)
-I (.\inf\lcd\Inf_LCD.h)(0x65D1B692)
-I (.\driver\fsmc\Driver_FSMC.h)(0x65B4C454)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+I (.\inf\lcd\Inf_LCD.h)(0x65D3F24A)
+I (.\driver\fsmc\Driver_FSMC.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\math.h)(0x60252378)
-I (.\common\debug\Common_Debug.h)(0x65BC8A5E)
-I (.\driver\usart\Driver_USART1.h)(0x65BC58DB)
+I (.\common\debug\Common_Debug.h)(0x65D3F24A)
+I (.\driver\usart\Driver_USART1.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\string.h)(0x6025237E)
-I (.\inf\w25q32\Inf_W25Q32.h)(0x65B35183)
-I (.\driver\spi\Driver_SPI.h)(0x65D2D0CC)
+I (.\inf\w25q32\Inf_W25Q32.h)(0x65D3F24A)
+I (.\driver\spi\Driver_SPI.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdlib.h)(0x60252374)
-F (.\inf\lcd\Inf_LCD.c)(0x65D1B79C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_lcd.o --omf_browse .\objects\inf_lcd.crf --depend .\objects\inf_lcd.d)
-I (inf\lcd\Inf_LCD.h)(0x65D1B692)
-I (.\driver\fsmc\Driver_FSMC.h)(0x65B4C454)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+F (.\app\tds\App_Tds.c)(0x65D3F96C)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\app_tds.o --omf_browse .\objects\app_tds.crf --depend .\objects\app_tds.d)
+F (.\inf\lcd\Inf_LCD.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_lcd.o --omf_browse .\objects\inf_lcd.crf --depend .\objects\inf_lcd.d)
+I (inf\lcd\Inf_LCD.h)(0x65D3F24A)
+I (.\driver\fsmc\Driver_FSMC.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_delay.h)(0x659CB920)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_delay.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\math.h)(0x60252378)
-I (inf\lcd\Inf_LCD_Font.h)(0x65D1B877)
+I (inf\lcd\Inf_LCD_Font.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
-F (.\inf\hx710\Inf_HX710.c)(0x65D2AF64)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_hx710.o --omf_browse .\objects\inf_hx710.crf --depend .\objects\inf_hx710.d)
-I (inf\hx710\Inf_HX710.h)(0x65D2B663)
-I (.\driver\gpio\Driver_GPIO.h)(0x65D2F49A)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+F (.\inf\hx710\Inf_HX710.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_hx710.o --omf_browse .\objects\inf_hx710.crf --depend .\objects\inf_hx710.d)
+I (inf\hx710\Inf_HX710.h)(0x65D3F24A)
+I (.\driver\gpio\Driver_GPIO.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_Delay.h)(0x659CB920)
-F (.\inf\w25q32\Inf_W25Q32.c)(0x65CC134F)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_w25q32.o --omf_browse .\objects\inf_w25q32.crf --depend .\objects\inf_w25q32.d)
-I (inf\w25q32\Inf_W25Q32.h)(0x65B35183)
-I (.\driver\spi\Driver_SPI.h)(0x65D2D0CC)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+F (.\inf\w25q32\Inf_W25Q32.c)(0x65D3FAFB)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\inf_w25q32.o --omf_browse .\objects\inf_w25q32.crf --depend .\objects\inf_w25q32.d)
+I (inf\w25q32\Inf_W25Q32.h)(0x65D3F24A)
+I (.\driver\spi\Driver_SPI.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_Delay.h)(0x659CB920)
-F (.\driver\usart\Driver_USART1.c)(0x65D1B2F7)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_usart1.o --omf_browse .\objects\driver_usart1.crf --depend .\objects\driver_usart1.d)
-I (driver\usart\Driver_USART1.h)(0x65BC58DB)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+F (.\inf\ads1115\ads1115.c)(0x65D3FAAC)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\ads1115.o --omf_browse .\objects\ads1115.crf --depend .\objects\ads1115.d)
+I (inf\ads1115\Ads1115.h)(0x65D3FAC7)
+F (.\driver\usart\Driver_USART1.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_usart1.o --omf_browse .\objects\driver_usart1.crf --depend .\objects\driver_usart1.d)
+I (driver\usart\Driver_USART1.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
-I (.\common\debug\Common_Debug.h)(0x65BC8A5E)
-I (.\driver\usart\Driver_USART1.h)(0x65BC58DB)
+I (.\common\debug\Common_Debug.h)(0x65D3F24A)
+I (.\driver\usart\Driver_USART1.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\string.h)(0x6025237E)
-F (.\driver\fsmc\Driver_FSMC.c)(0x65B726E8)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_fsmc.o --omf_browse .\objects\driver_fsmc.crf --depend .\objects\driver_fsmc.d)
-I (driver\fsmc\Driver_FSMC.h)(0x65B4C454)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+F (.\driver\fsmc\Driver_FSMC.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_fsmc.o --omf_browse .\objects\driver_fsmc.crf --depend .\objects\driver_fsmc.d)
+I (driver\fsmc\Driver_FSMC.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-F (.\driver\gpio\Driver_GPIO.c)(0x65D2FF02)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_gpio.o --omf_browse .\objects\driver_gpio.crf --depend .\objects\driver_gpio.d)
-I (driver\gpio\Driver_GPIO.h)(0x65D2F49A)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+F (.\driver\gpio\Driver_GPIO.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_gpio.o --omf_browse .\objects\driver_gpio.crf --depend .\objects\driver_gpio.d)
+I (driver\gpio\Driver_GPIO.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_Delay.h)(0x659CB920)
-F (.\driver\spi\Driver_SPI.c)(0x65D2D0DB)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_spi.o --omf_browse .\objects\driver_spi.crf --depend .\objects\driver_spi.d)
-I (driver\spi\Driver_SPI.h)(0x65D2D0CC)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+F (.\driver\spi\Driver_SPI.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_spi.o --omf_browse .\objects\driver_spi.crf --depend .\objects\driver_spi.d)
+I (driver\spi\Driver_SPI.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-I (.\common\delay\Common_Delay.h)(0x659CB920)
-F (.\common\debug\Common_Debug.c)(0x65B9B59D)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\common_debug.o --omf_browse .\objects\common_debug.crf --depend .\objects\common_debug.d)
-I (common\debug\Common_Debug.h)(0x65BC8A5E)
-I (.\driver\usart\Driver_USART1.h)(0x65BC58DB)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+F (.\driver\i2c\Driver_I2C2.c)(0x65D3F9D3)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\driver_i2c2.o --omf_browse .\objects\driver_i2c2.crf --depend .\objects\driver_i2c2.d)
+I (driver\i2c\Driver_I2C2.h)(0x65D3FA04)
+I (.\common\delay\Common_Delay.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+F (.\common\debug\Common_Debug.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\common_debug.o --omf_browse .\objects\common_debug.crf --depend .\objects\common_debug.d)
+I (common\debug\Common_Debug.h)(0x65D3F24A)
+I (.\driver\usart\Driver_USART1.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
+I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdio.h)(0x60252374)
-I (.\common\debug\Common_Debug.h)(0x65BC8A5E)
+I (.\common\debug\Common_Debug.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\string.h)(0x6025237E)
-F (.\common\delay\Common_Delay.c)(0x65D1B2A6)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\common_delay.o --omf_browse .\objects\common_delay.crf --depend .\objects\common_delay.d)
-I (common\delay\Common_Delay.h)(0x659CB920)
-I (.\Start\stm32f10x.h)(0x65B9E100)
-I (.\Start\core_cm3.h)(0x61605444)
+F (.\common\delay\Common_Delay.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\common_delay.o --omf_browse .\objects\common_delay.crf --depend .\objects\common_delay.d)
+I (common\delay\Common_Delay.h)(0x65D3F24A)
+I (.\Start\stm32f10x.h)(0x65D3F24A)
+I (.\Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (.\Start\system_stm32f10x.h)(0x61605444)
-F (.\Start\core_cm3.c)(0x61605444)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
+I (.\Start\system_stm32f10x.h)(0x65D3F24A)
+F (.\Start\core_cm3.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\core_cm3.o --omf_browse .\objects\core_cm3.crf --depend .\objects\core_cm3.d)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-F (.\Start\system_stm32f10x.c)(0x61605444)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
-I (Start\stm32f10x.h)(0x65B9E100)
-I (Start\core_cm3.h)(0x61605444)
+F (.\Start\system_stm32f10x.c)(0x65D3F24A)(--c99 --gnu -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I .\Start -I .\driver\usart -I .\common\debug -I .\driver\fsmc -I .\inf\lcd -I .\app\display -I .\common\delay -I .\driver\gpio -I .\inf\hx710 -I .\app\water_level -I .\driver\spi -I .\inf\w25q32 -I .\app\tds -I .\inf\ads1115 -I .\driver\i2c-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="538" -DSTM32F10X_HD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (Start\stm32f10x.h)(0x65D3F24A)
+I (Start\core_cm3.h)(0x65D3F24A)
 I (C:\Keil_v5\ARM\02_arm5_compiler\include\stdint.h)(0x6025237E)
-I (Start\system_stm32f10x.h)(0x61605444)
-F (.\Start\startup_stm32f10x_hd.s)(0x61605445)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
+I (Start\system_stm32f10x.h)(0x65D3F24A)
+F (.\Start\startup_stm32f10x_hd.s)(0x65D3F24A)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 538" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)

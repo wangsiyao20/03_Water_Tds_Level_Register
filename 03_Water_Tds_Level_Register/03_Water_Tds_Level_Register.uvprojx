@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Start;.\driver\usart;.\common\debug;.\driver\fsmc;.\inf\lcd;.\app\display;.\common\delay;.\driver\gpio;.\inf\hx710;.\app\water_level;.\driver\spi;.\inf\w25q32</IncludePath>
+              <IncludePath>.\Start;.\driver\usart;.\common\debug;.\driver\fsmc;.\inf\lcd;.\app\display;.\common\delay;.\driver\gpio;.\inf\hx710;.\app\water_level;.\driver\spi;.\inf\w25q32;.\app\tds;.\inf\ads1115;.\driver\i2c</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -404,6 +404,11 @@
               <FileType>1</FileType>
               <FilePath>.\app\water_level\App_WaterLevel.c</FilePath>
             </File>
+            <File>
+              <FileName>App_Tds.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app\tds\App_Tds.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -423,6 +428,11 @@
               <FileName>Inf_W25Q32.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\inf\w25q32\Inf_W25Q32.c</FilePath>
+            </File>
+            <File>
+              <FileName>ads1115.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\inf\ads1115\ads1115.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -448,6 +458,11 @@
               <FileName>Driver_SPI.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\driver\spi\Driver_SPI.c</FilePath>
+            </File>
+            <File>
+              <FileName>Driver_I2C2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\driver\i2c\Driver_I2C2.c</FilePath>
             </File>
           </Files>
         </Group>

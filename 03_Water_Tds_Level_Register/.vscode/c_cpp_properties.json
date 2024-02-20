@@ -15,6 +15,9 @@
                 "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\app\\water_level",
                 "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\driver\\spi",
                 "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\inf\\w25q32",
+                "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\app\\tds",
+                "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\inf\\ads1115",
+                "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register\\driver\\i2c",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "c:\\1stm32\\project-Water_Tds_Level\\a\\03_Water_Tds_Level_Register\\03_Water_Tds_Level_Register"
             ],

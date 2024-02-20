@@ -141,3 +141,4 @@ void Inf_W25Q32_Read(uint8_t block, uint8_t sector, uint8_t page, uint8_t* data,
 
     Driver_SPI_Stop();
 }
+

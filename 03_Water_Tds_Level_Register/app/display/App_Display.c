@@ -1,5 +1,6 @@
 #include "App_Display.h"
 #include "stdio.h"
+#include "string.h"
 
 
 /**
@@ -28,15 +29,17 @@ void App_Display_ShowTitle(void) {
     }
 }
 
-// TODO
-// void App_Display_ShowTDS() {
-
-// }
-
 uint8_t d_buff[50];
-void App_Display_ShowWaterLevel(double wl) {
-    sprintf((char *)d_buff, "water_level=%.2f        ", wl);
+void App_Display_ShowTDS(double tds) {
+    memset((char *)d_buff, 0, sizeof(d_buff));
+    sprintf((char *)d_buff, "tds=%.2f        ", tds);
     Inf_LCD_WriteAsciiString(10, 120, 24, d_buff, RED, BLACK);
+}
+
+void App_Display_ShowWaterLevel(double wl) {
+    memset((char *)d_buff, 0, sizeof(d_buff));
+    sprintf((char *)d_buff, "water_level=%.2f        ", wl);
+    Inf_LCD_WriteAsciiString(10, 150, 24, d_buff, RED, BLACK);
 }
 
 

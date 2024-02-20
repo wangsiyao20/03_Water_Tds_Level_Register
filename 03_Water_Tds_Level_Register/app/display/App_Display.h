@@ -8,6 +8,8 @@ void App_Display_ShowLogo(void);
 
 void App_Display_ShowTitle(void);
 
+void App_Display_ShowTDS(double tds);
+
 void App_Display_ShowWaterLevel(double wl);
 
 #endif

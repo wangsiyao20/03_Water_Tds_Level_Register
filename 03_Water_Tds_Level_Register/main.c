@@ -4,6 +4,8 @@
 #include "App_Display.h"
 #include "Inf_HX710.h"
 #include "App_WaterLevel.h"
+#include "App_Tds.h"
+
 
 
 int main()
@@ -19,9 +21,13 @@ int main()
 //    App_Display_ShowTitle();
 
    Inf_HX710_Init();
+   
 
    // 开启水位测量
    App_WaterLevel_Start();
+
+   // 开启水质测量
+   App_TDS_Start();
 
     while (1)
     {
@@ -30,10 +36,16 @@ int main()
       //  debug_printfln("%d", value);
       //  Delay_s(1);
 
-      // 水位
-      double wl = App_WaterLevel_ReadWaterLevel();
-      App_Display_ShowWaterLevel(wl);
-      Delay_ms(500);
+      // // 水位
+      // double wl = App_WaterLevel_ReadWaterLevel();
+      // App_Display_ShowWaterLevel(wl);
+
+      // 获取TDS的值
+      double tds = App_TDS_CaculateTDS();
+      App_Display_ShowTDS(tds);
+
+      Delay_ms(1000);
+
     }
 }
 

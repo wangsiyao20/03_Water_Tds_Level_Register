@@ -16,3 +16,4 @@
 .\objects\main.o: .\inf\hx710\Inf_HX710.h
 .\objects\main.o: .\driver\gpio\Driver_GPIO.h
 .\objects\main.o: .\app\water_level\App_WaterLevel.h
+.\objects\main.o: .\app\tds\App_Tds.h

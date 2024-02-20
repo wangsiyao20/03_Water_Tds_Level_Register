@@ -9,3 +9,4 @@
 .\objects\app_display.o: .\common\delay\Common_delay.h
 .\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\math.h
 .\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdio.h
+.\objects\app_display.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\string.h

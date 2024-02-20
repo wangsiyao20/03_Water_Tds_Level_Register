@@ -1,2 +1,13 @@
 .\objects\ads1115.o: inf\ads1115\ads1115.c
 .\objects\ads1115.o: inf\ads1115\Ads1115.h
+.\objects\ads1115.o: .\driver\i2c\Driver_I2C2.h
+.\objects\ads1115.o: .\common\delay\Common_Delay.h
+.\objects\ads1115.o: .\Start\stm32f10x.h
+.\objects\ads1115.o: .\Start\core_cm3.h
+.\objects\ads1115.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdint.h
+.\objects\ads1115.o: .\Start\system_stm32f10x.h
+.\objects\ads1115.o: .\common\debug\Common_Debug.h
+.\objects\ads1115.o: .\driver\usart\Driver_USART1.h
+.\objects\ads1115.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\stdio.h
+.\objects\ads1115.o: .\common\debug\Common_Debug.h
+.\objects\ads1115.o: C:\Keil_v5\ARM\02_arm5_compiler\Bin\..\include\string.h
